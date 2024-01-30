@@ -1,7 +1,13 @@
 // Functions Practice
 // For the first standard function, write a function that accepts two numbers as parameters, adds them together, then returns the result of that addition
 // name this function addTwoNums
-// TO DO
+function addTwoNums(num1, num2) {
+    let sum;
+    sum = num1 + num2;
+    return sum;
+
+    // return num1 + num2;
+}
 
 
 // For box 2, let's accept two string parameters and return the result of them concatenated into a single string with a space between the two words
